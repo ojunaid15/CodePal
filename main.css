@@ -1,0 +1,138 @@
+/*******************
+General 
+
+**************/
+
+
+/*navigation bar*/
+
+nav{
+text-align:center; 
+padding: 10px 0; 
+margin 20px 0 0 ; 
+}
+
+
+nav{
+  background: #2ECBF3; 
+  
+}
+
+nav a, nav a:visited {
+ color:#fff;  
+  
+}
+
+
+nav a.selected, nav a:hover{
+  color:#0091B8; 
+ 
+ 
+  
+}
+
+
+nav ul{
+  list-style: none;
+  margin: 0 10px; 
+  padding:0 ; 
+  text-align: right; 
+  
+  
+}
+
+nav li{
+ display: inline-block; 
+  
+  
+}
+
+
+nav a{
+ font-weight:800; 
+  padding: 15px 10px;
+  
+
+}
+
+/*Header and Main Information bar*/
+
+
+header{
+
+  margin: 0 0 0px 0px;
+  padding: 5px 0 ;
+  background: #2ECBF3;
+  border-bottom:5px solid #0091B8; 
+
+}
+
+header h1{
+color: #fff;
+text-decoration: none;
+padding-top: 2cm;
+font-family: 'Roboto', sans-serif; 
+margin: 15px 0;
+font-size: 3em; 
+font-weight: normal;
+line-height: 0.8em;
+
+
+
+}
+header h2{
+color: #fff;
+padding: 0;
+font-size: 0.75em;   
+margin: 0; 
+font-family:'Open Sans', sans-serif;
+font-weight: normal;
+
+
+}
+
+
+a{
+  text-decoration: none;
+
+
+}
+/*******************
+Main Page/Log in Sign Up
+**************/
+
+/*About Section*/
+
+#about p{
+font-size: 20px;
+
+
+}
+
+
+#about h2{
+ color:#fff;
+ font-size: 40px;
+ text-align: center;
+
+}
+#about{
+background: #778899;
+margin:0px;
+padding: 70px;
+font-family: 'Open Sans', sans-serif;
+font-size: 10px;
+}
+
+#about img{
+float: right;
+border-radius: 100%;
+
+
+
+
+}
+
+
+
+
