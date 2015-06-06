@@ -1,1 +1,1 @@
-# CodePal
+Hack2040 Project
