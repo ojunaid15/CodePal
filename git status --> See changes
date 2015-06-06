@@ -1,0 +1,8 @@
+git status --> See changes
+git add --> Add the file.
+git commit --> 
+git push
+
+git add 'filename'
+git commit -m 'message name.'
+git push
