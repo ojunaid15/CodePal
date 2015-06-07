@@ -8,9 +8,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="main.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
 		<!-- this goes inside the header tag-->
-		<link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="users.css">
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 		<!-- all these references goes before the closing body tag-->
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -25,7 +25,6 @@
 	        	<li><a href="#community">Community</a></li>
 	        	<li><a href="#find">Support</a></li>
 	        	<li><a href="#login">Log In</a></li>
-	        	<li><a href="mainprofile.html">Profile</a></li>
 	       </ul>
 	    </nav>
 	    <a href="index.html" id="logo">
@@ -35,68 +34,3 @@
 	    <center><img src="logo.png" height="142" width="142"></center>
 	     
 	</header>
-<div id="wrapper">
-<section>
-  <ul class="users">
-  	<li>
-  	<img src="pic1.png" alt="pic1">
-  	<p> Jane Smith</p>
-  	 
-  	<a href="mailto:janesmith@gmail.com"><img src="mail.png" class= button ></a>
-  
-  	</li>
-
-  	<li>
-  	<img src="pic2.png" alt="pic2">
-  	<p> Fa Wong</p>
-  	 <a href="mailto:fawong@gmail.com"><img src="mail.png" class= button ></a>
-  	</li>
-
-  	<li>
-  	<img src="pic3.png" alt="pic3">
-  	<p> Mona Thompson</p>
-  	 <a href="mailto:monathompson@gmail.com"><img src="mail.png" class= button ></a>
-  	</li>
-
-<li>
-  	<img src="pic4.png" alt="pic4">
-  	<p> Akosua Osehi</p>
-  	 	<a href="mailto:akosuaosehi@gmail.com"><img src="mail.png" class= button ></a>
-  	</li>
-
- <li>
-  	<img src="pic5.png" alt="pic5">
-  	<p> Ana Oliveira</p>
-  	 <a href="mailto:anaoliveira@gmail.com"><img src="mail.png" class= button ></a>
-  	</li>
-
-<li>
-  	<img src="pic6.png" alt="pic6">
-  	<p> Priya Srikar</p>
-  	 	<a href="mailto:priyasrikar@gmail.com"><img src="mail.png" class= button ></a>
-  	</li>
-
-
-
-  </ul>
-</section>
-</div>
-
-
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html>
