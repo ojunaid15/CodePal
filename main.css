@@ -9,23 +9,22 @@ General
 nav{
 text-align:center; 
 padding: 10px 0; 
-margin 20px 0 0 ; 
+margin: 0;
 }
 
-
 nav{
-  background: #2ECBF3; 
+  background: #AEC6CF; 
   
 }
 
 nav a, nav a:visited {
- color:#fff;  
+ color:#ffc0cb;  
   
 }
 
 
 nav a.selected, nav a:hover{
-  color:#0091B8; 
+  color:#db7093; 
  
  
   
@@ -57,42 +56,60 @@ nav a{
 
 /*Header and Main Information bar*/
 
+#header2 nav{
+background: #20b2aa;
+margin:0;
 
+}
 header{
 
   margin: 0 0 0px 0px;
   padding: 5px 0 ;
-  background: #2ECBF3;
-  border-bottom:5px solid #0091B8; 
+  background: #AEC6CF;
+  
 
 }
 
 header h1{
 color: #fff;
 text-decoration: none;
-padding-left: 20px;
 padding-top: 2cm;
-font-family: 'Roboto', sans-serif; 
+font-family: 'Playfair Disney', sans-serif; 
 margin: 15px 0;
-font-size: 3em; 
+font-size: 10em; 
 font-weight: normal;
 line-height: 0.8em;
 
 
 
+
 }
+#logo
+
+{
+
+margin: 20px;
+
+}
+
 header h2{
 color: #fff;
 padding: 0;
-padding-left: 20px;
-font-size: 0.75em;   
+font-size: 1.5em;   
 margin: 0; 
-font-family:'Open Sans', sans-serif;
+font-family:'Playfair Disney', sans-serif;
 font-weight: normal;
 
 
 }
 
+
+header img{
+max-width: 200px;
+float:center;
+
+
+}
 
 a{
   text-decoration: none;
@@ -166,6 +183,34 @@ float: left;
 border-radius: 100%;
 
 
+
+
+}
+/*What will you find here*/
+#find p{
+font-size: 20px;
+text-align: right;
+
+
+}
+
+
+#find h2{
+ color:#fff;
+ font-size: 40px;
+ text-align: center;
+
+}
+#find{
+background: #CB99C9;
+margin:0px;
+padding: 70px;
+font-family: 'Open Sans', sans-serif;
+font-size: 10px;
+}
+
+#find p{
+text-align: center;
 
 
 }
@@ -306,11 +351,9 @@ color:#ff1493;
 
 }
 
+
+
 form a:hover{
 color:#adff2f;
 
 }
-
-
-
-

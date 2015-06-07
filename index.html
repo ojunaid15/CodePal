@@ -1,14 +1,16 @@
 <!DOCTYPE html> 
 <html>
 	<head>
+
 		<meta charser="utf-8">
-		<title>Code Pal | Coding Pen Pals</title>
+		<title>CodePal | Coding Pen Pals</title>
 		<link rel="stylesheet" href="normalize.css">
 		<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="main.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<!-- this goes inside the header tag-->
 		<link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 		<!-- all these references goes before the closing body tag-->
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -16,47 +18,51 @@
 	</head>
 <body>
 	<header>
-	    <a href="index.html" id="logo">
-	    	<h1>CodePal</h1>
-	        <h2>Where Girl Coders Everywhere Unite</h2>
-	    </a>
-	     <nav>
+	    <nav>
 	      	<ul>
 	        	<li><a href="#about" class="selected">About</a></li>
 	        	<li><a href="#community">Community</a></li>
+	        	<li><a href="#find">Support</a></li>
 	        	<li><a href="#login">Log In</a></li>
 	       </ul>
 	    </nav>
+	    <a href="index.html" id="logo">
+	    	<center><h1>CodePal</h1>
+	        <h2>Where Girl Coders Everywhere Unite</h2></center>
+	    </a>
+	    <center><img src="logo.png" height="142" width="142"></center>
+	     
 	</header>
 	<section id="about">
 		<img src="penpals.jpg" class="penpal">
 		<h2>About</h2>
-		<p>CodePal aims to bring girls from different regions of the world in middle schools and high schools and foster their interest in the world of technology and coding.</p>
-		<p>We want to use STEM education to inspite and influence these females to explore the limitless world of STEM.</p>
-		
-	
+		<p>CodePal aims to bring girls from different locations around the world in middle schools and high schools to foster their interest in the world of Science, Technology, Engineering, and Mathematics.</p>
+		<p>We want to use Science, Technology, Engineering, and Mathematics, or more commonly known as, STEM education to inspite and influence these young females to explore the limitless world of what STEM can offer them.</p>
+		<p>They will build life friendships and partnerships to help each other grown and work on future projects, or even startups!</p>
 	</section>
 	<section id="community">
 		<img src="support.jpg">
-		<h2> Community</h2>
-		<p>Our goal is not only to create a network of coder girls, but also a support system. We hope to help girls in developing nations grow their interest in STEM. </p>
-		<p>What will you find here? A support system. Resources. Most Importantly, a group of girls eager to help each other.  </p>
-		</section>
+		<h2>Our Goal</h2>
+		<p>Our goal is to have more girls in the tedch world by the year 2040. Brining girls from different regions around the world together, they will not only create a network of coder girls, but also a support system. We hope to help girls in developing nations grow their interest in STEM. </p>
+	</section>
+	<section id="find">
+		<h2>What Will You Find Here?</h2>
+		<center><p>Resources. A support system. Most Importantly, a group of girls eager to help each other.</p></center>
+	</section>
 	<section id="login">
 		<h2>Sign Up or Log In</h2>
 		<form action="index.html" method="post">
 			<h1>Sign Up</h1>
-			<input type="text" id="name" name="user_name">
-			<input type="email" id="mail" name="user_email">
-			<input type="password" id="password" name="user_password">
-			<p> Already have an account? Log in <a href="">here</a></p>
+			<input type="email" id="mail" name="user_email" placeholder="Email">
+			<input type="text" id="name" name="user_name" placeholder="Username">
+			<input type="password" id="password" name="user_password" placeholder="Password">
+			<h3> Already have an account? Log in <a href="">here</a></h3>
 			<button type="submit">Sign Up</button>
 		</form>
 		
 	</section>
 
-</body>
-<!--<div id="header" class="header">
+</body><div id="header2">
    <nav id="nav">
        <ul class="nav navbar-nav">
            <li>
@@ -74,5 +80,4 @@
        </ul>
    </nav>
 </div>
-!-->
 </html>
