@@ -372,6 +372,12 @@ color:#fff;
 
 }
 
+.wrapper #prof{
+float:left;
+
+
+}
+
 .wrapper{
 background-color: #696969;
 padding: 20px;
@@ -390,7 +396,7 @@ border: 10px solid;
 }
 
 
-#history{
+#history ul{
  list-style: none;
 
 }
